@@ -1,15 +1,15 @@
 import os
 import csv
 
-path = “C:\. . .” ## Update with the folder path on your system
-fnames = [“file1.csv",
-          “file2.csv",
-          “file3.csv",
-          “file4.csv"] # Update with file names to join
+path = "C:\..." ## Update with the folder path on your system
+fnames = ["file1.csv",
+          "file2.csv",
+          "file3.csv",
+          "file4.csv"] # Update with file names to join
 
-joinname = “allfiles.csv" # The name of the joined file
+joinname = "allfiles.csv" # The name of the joined file
 
-delim = “,” # The delimiter to use (could also be “\t” for tab-delimited files)
+delim = "," # The delimiter to use (could also be “\t” for tab-delimited files)
 
 os.chdir(path)
 
